@@ -21,6 +21,7 @@
 		D1A521EE18EE4C1700DD54C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A521D018EE4C1700DD54C1 /* UIKit.framework */; };
 		D1A521F618EE4C1700DD54C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A521F418EE4C1700DD54C1 /* InfoPlist.strings */; };
 		D1A521F818EE4C1700DD54C1 /* SQLite_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A521F718EE4C1700DD54C1 /* SQLite_TutorialTests.m */; };
+		D1A5220218EE506100DD54C1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A5220118EE506100DD54C1 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D1A521F318EE4C1700DD54C1 /* SQLite TutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLite TutorialTests-Info.plist"; sourceTree = "<group>"; };
 		D1A521F518EE4C1700DD54C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1A521F718EE4C1700DD54C1 /* SQLite_TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLite_TutorialTests.m; sourceTree = "<group>"; };
+		D1A5220118EE506100DD54C1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A5220218EE506100DD54C1 /* libsqlite3.dylib in Frameworks */,
 				D1A521CF18EE4C1700DD54C1 /* CoreGraphics.framework in Frameworks */,
 				D1A521D118EE4C1700DD54C1 /* UIKit.framework in Frameworks */,
 				D1A521CD18EE4C1700DD54C1 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		D1A521CB18EE4C1700DD54C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1A5220118EE506100DD54C1 /* libsqlite3.dylib */,
 				D1A521CC18EE4C1700DD54C1 /* Foundation.framework */,
 				D1A521CE18EE4C1700DD54C1 /* CoreGraphics.framework */,
 				D1A521D018EE4C1700DD54C1 /* UIKit.framework */,
